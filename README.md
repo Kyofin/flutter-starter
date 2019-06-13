@@ -2,15 +2,11 @@
 
 A new Flutter project.
 
-## Getting Started
+## IDEA快捷生成Flutter模板
+Flutter插件包含以下模板:
 
-This project is a starting point for a Flutter application.
+- 前缀stless: 创建一个StatelessWidget的子类.
+- 前缀stful: 创建一个StatefulWidget子类并且关联到一个State子类.
+- 前缀stanim: 创建一个StatefulWidget子类, 并且它关联的State子类包括一个 AnimationController
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
