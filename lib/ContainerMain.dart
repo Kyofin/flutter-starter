@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),
-              alignment: Alignment.bottomRight,
               // 容器内部的元素定位
+              alignment: Alignment.bottomRight,
               width: 400,
               height: 500,
               // 内外边距
