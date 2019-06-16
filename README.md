@@ -6,6 +6,7 @@ A new Flutter project.
 1. 打开idea引入项目中的settings.jar
 2. 在idea中使用如下快捷键：
 支持的快捷键如下：
+
 Short keys|Description
 ----|----
 bab|	Create AnimatedBuilder
