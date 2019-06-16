@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// 使用ListView组件渲染横向列表 （图片 + listTile组合）
+/// 效果图：![](https://raw.githubusercontent.com/huzekang/picbed/master/Jietu20190616-175545.gif)
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -36,14 +37,14 @@ class MyList extends StatelessWidget {
           color: Colors.pinkAccent,
         ),
         new Container(
-          width: 200.0,
+          width: 300.0,
           color: Colors.blueGrey,
         ),
         new Container(
-          width: 200.0,
+          width: 400.0,
           color: Colors.greenAccent,
         ), new Container(
-          width: 200.0,
+          width: 500.0,
           color: Colors.orangeAccent,
         )
       ],

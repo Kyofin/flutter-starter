@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// 使用Row布局
+/// 效果图：![](https://raw.githubusercontent.com/huzekang/picbed/master/20190616181225.png)
 void main() {
   runApp(MyApp());
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 /// 卡片布局
+/// 效果图：![](https://raw.githubusercontent.com/huzekang/picbed/master/20190616174148.png)
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

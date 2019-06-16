@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// 根据动态列表，使用ListView组件渲染列表
+/// 效果图：![](https://raw.githubusercontent.com/huzekang/picbed/master/20190616174643.png)
 void main() => runApp(MyApp(
     //传递一个字符串list到构造函数的items值中
     items: new List<String>.generate(1000, (i) => "视频 $i")));
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
                   itemCount: 1000,
                   itemBuilder: (context, index) {
                     return new ListTile(
-                      leading: new Icon(Icons.video_call),
+                      leading: new Icon(Icons.video_call,color: Colors.blueAccent,),
                       // 传入itemCount的下标获取items中对应的值
                       title: Text('${items[index]}'),
                     );

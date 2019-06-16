@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// 使用Image组件引入网络图片
+/// 效果图：![](https://raw.githubusercontent.com/huzekang/picbed/master/20190616174902.png)
 void main() {
   runApp(MyApp());
 }
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "image starter",
       home: Scaffold(
+        appBar: AppBar(title: Text('Image组件¡'),),
         body: Center(
           child: Container(
             // 引入网络图片

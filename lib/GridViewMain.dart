@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// 使用GridView组件做出手机相册效果
+/// 效果图：![](https://raw.githubusercontent.com/huzekang/picbed/master/20190616174726.png)
 void main() {
   runApp(MyApp());
 }

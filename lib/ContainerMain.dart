@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// 使用Container组件相当于div
+/// 效果图：![](https://raw.githubusercontent.com/huzekang/picbed/master/20190616174404.png)
 void main() {
   runApp(MyApp());
 }
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "container starter",
       home: Scaffold(
+        appBar: AppBar(title: Text('Container容器'),),
         body: Center(
           child: Container(
               child: Text(

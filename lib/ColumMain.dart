@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// 使用Column布局
+/// 效果图：![](https://raw.githubusercontent.com/huzekang/picbed/master/20190616174245.png)
 void main() {
   runApp(MyApp());
 }
