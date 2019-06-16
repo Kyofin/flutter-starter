@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
           child: Container(
             // 引入网络图片
             child: new Image.network(
-                "http://unioncz.com/uploads/allimg/c180221/15191U5b1F10-3Jb.jpg",
+                "https://i.loli.net/2019/06/14/5d02f5d19c5c982612.jpg",
               // 图片调色
               color: Colors.greenAccent,
               colorBlendMode: BlendMode.colorBurn,
