@@ -81,3 +81,7 @@ te|	Create normal Text
 - Flutter英文网：https://flutter.io
 - Flutter中文网：https://flutterchina.club
 - Flutter社区：http://flutter-dev.cn/
+
+## 常见问题
+- 从git拉下的开源项目无法`flutter run`，提示gradlew错误
+将可以运行的flutter项目中android目录下的所有问题替换到开源项目对应android目录下即可。
