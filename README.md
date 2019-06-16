@@ -83,5 +83,6 @@ te|	Create normal Text
 - Flutter社区：http://flutter-dev.cn/
 
 ## 常见问题
-- 从git拉下的开源项目无法`flutter run`，提示gradlew错误
-将可以运行的flutter项目中android目录下的所有问题替换到开源项目对应android目录下即可。
+- 从git拉下的开源项目无法`flutter run`，提示gradlew错误。
+![](https://raw.githubusercontent.com/huzekang/picbed/master/20190616214541.png)
+解决：将可以运行的flutter项目中android目录下的所有问题替换到开源项目对应android目录下即可。
