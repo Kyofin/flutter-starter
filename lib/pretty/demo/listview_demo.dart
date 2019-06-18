@@ -1,25 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_starter/pretty/model/post.dart';
 
-/// ListView实战
-/// 效果图： ![](https://raw.githubusercontent.com/huzekang/picbed/master/20190618224301.png)
-void main() {
-  runApp(
-    new MaterialApp(
-      title: 'JSkang',
-      theme: new ThemeData(
-        primarySwatch: Colors.yellow,
-      ),
-      home: new ListViewHome(),
-    ),
-  );
-}
-
 class ListViewHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        // 背景颜色设置
+      // 背景颜色设置
         backgroundColor: Colors.grey[100],
         appBar: new AppBar(
           title: new Text('JSkang'),
