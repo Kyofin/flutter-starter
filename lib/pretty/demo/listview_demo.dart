@@ -7,11 +7,6 @@ class ListViewHome extends StatelessWidget {
     return new Scaffold(
       // 背景颜色设置
         backgroundColor: Colors.grey[100],
-        appBar: new AppBar(
-          title: new Text('JSkang'),
-          centerTitle: true,
-          elevation: 0.0, // 阴影
-        ),
         body: ListView.builder(
           itemBuilder: _listItemBuilder,
           itemCount: posts.length,
