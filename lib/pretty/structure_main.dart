@@ -3,6 +3,7 @@ import 'package:flutter_starter/pretty/demo/bottom_navigation_bar_demo.dart';
 import 'package:flutter_starter/pretty/demo/drawer_demo.dart';
 import 'package:flutter_starter/pretty/demo/listview_demo.dart';
 import 'package:flutter_starter/pretty/demo/basic_demo.dart';
+import 'package:flutter_starter/pretty/demo/layout_demo.dart';
 ///
 ///
 /// app常用界面结构实战
@@ -81,16 +82,17 @@ class Home extends StatelessWidget {
               ListViewHome(),
               //基础组件demo
               BasicDemo(),
-              Icon(
-                Icons.local_florist,
-                size: 80,
-                color: Colors.black12,
-              ),
-              Icon(
-                Icons.change_history,
-                size: 80,
-                color: Colors.black12,
-              ),
+              LayoutDemo()
+//              Icon(
+//                Icons.local_florist,
+//                size: 80,
+//                color: Colors.black12,
+//              ),
+//              Icon(
+//                Icons.change_history,
+//                size: 80,
+//                color: Colors.black12,
+//              ),
             ],
           ),
           // 定义抽屉 => 默认会在appBar上添加菜单按钮，点击即可打开抽屉 【屏幕边缘扫动打开抽屉】
