@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_starter/pretty/demo/bottom_navigation_bar_demo.dart';
 import 'package:flutter_starter/pretty/demo/drawer_demo.dart';
 import 'package:flutter_starter/pretty/demo/listview_demo.dart';
-
+import 'package:flutter_starter/pretty/demo/basic_demo.dart';
 ///
 ///
 /// app常用界面结构实战
@@ -79,6 +79,8 @@ class Home extends StatelessWidget {
             children: <Widget>[
 
               ListViewHome(),
+              //基础组件demo
+              BasicDemo(),
               Icon(
                 Icons.local_florist,
                 size: 80,
